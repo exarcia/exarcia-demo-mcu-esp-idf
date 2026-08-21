@@ -122,11 +122,12 @@ dependencies:
       - if: target != linux
       version: ~1.2.0
     source:
-      path: ../../../.espressif/v6.0.1/esp-idf/examples/common_components/protocol_examples_common
+      path: components/protocol_examples_common
       type: local
     version: '*'
 direct_dependencies:
+- espressif/ethernet_init
 - protocol_examples_common
-manifest_hash: 9a9520c926aa0a3e6ab6efa4fb14c3591e654d3887543776c1f730f359b02661
+manifest_hash: ccf48c331c19894cd156e0ec4cb45dacb3baaa31cefa4968550b9d4ac4429313
 target: esp32c3
 version: 3.0.0
